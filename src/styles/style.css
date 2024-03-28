@@ -60,8 +60,10 @@
 button {
     background-color: var(--color-primary-2);
     color: var(--color-neutral-1);
-    padding: 8px;
+    font-size: 14px;
+    padding: 10px;
     margin-top: 10px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
