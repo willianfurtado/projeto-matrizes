@@ -39,7 +39,7 @@
 
 .input-box {
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .input-box  input {
@@ -49,9 +49,7 @@
     padding: 8px;
     margin-bottom: 5px;
     outline: none;
-    margin-right: 3px;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .inputs .input-box .first-group {
