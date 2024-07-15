@@ -61,10 +61,10 @@ const calcularTransposta = (matriz) => {
         }
     }
 }
-
+    
 // Adicionando o evento de clique ao botão "Gerar transposta"
 const buttonTransposta = document.querySelector("#transposta");
-buttonTransposta.addEventListener('click', () => {
+buttonTransposta.addEventListener('click', (event) => {
     event.preventDefault();
     const matrizOriginal = criarMatrizOriginal();
     calcularTransposta(matrizOriginal);
